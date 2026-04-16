@@ -81,7 +81,7 @@ neeet:
     #now we will have to update the result
     slli t0, s3, 3
     add t0, s2, t0
-    sd t2, 0(t0)
+    sd t1, 0(t0)
 shove:
     #special case of stack being empty like my bank account
     #if the shove condition was initiated with everything already done
